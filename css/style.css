@@ -6,6 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
 .container {
@@ -14,16 +15,35 @@ body {
   padding: 0 10px;
 }
 
+section {
+  margin-bottom: 20px;
+}
+
 section.hero {
   background: rgb(65, 185, 65);
   padding: 30px;
   color: white;
-  margin-bottom: 20px;
 }
 
 .hero-body h1.title {
   margin-bottom: 5px;
 }
+
 .hero-body h3.subtitle {
   font-weight: 300;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  font-size: 1em;
 }
