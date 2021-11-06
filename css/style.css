@@ -49,9 +49,8 @@ input {
 .card {
   padding: 1.25rem;
   border-radius: 4px;
-  /* box-shadow: 0 5px 10px rgb(210, 210, 210); */
-  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
-    0 0 0 1px rgb(10 10 10 / 2%);
+  box-shadow: 0 0 20px rgb(210, 210, 210);
+  border: 1px solid rgb(230, 230, 230);
   margin-bottom: 25px;
 }
 
